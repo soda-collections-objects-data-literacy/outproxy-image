@@ -15,7 +15,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -o outproxy ./cmd/outproxy
 
 FROM scratch
 
-LABEL org.opencontainers.image.source="https://github.com/soda-collections-objects-data-literacy/outproxy-image.git"
+LABEL org.opencontainers.image.source=https://github.com/soda-collections-objects-data-literacy/outproxy-image.git
 
 WORKDIR /
 
